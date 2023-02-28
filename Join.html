@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+<style>
+#container {font-style:Verdana, Geneva, sans-serif;
+		font-size:18px;
+		color:white;}
+body {background-color: #036;}
+header {background-color: #036;
+		padding:10px;
+		color:white;}
+	nav {background-color: #036;
+		padding:10px;
+		color:white;
+		height:75px}
+	nav ul {list-style-type:none;
+			margin:0;
+			padding:0;}
+	nav li {display:inline;
+			padding-right:75px;
+			color:white;
+			font-size:15px;}
+	nav li a {text-decoration:none;
+				color:white;}
+	nav a:link {text-decoration:none;
+				color:white;}
+	nav a: visited {text-decoration:none;
+					color:white;}
+	nav a:hover {text-decoration:underline;}
+		padding:10px;
+		color:white;}
+label {padding:5px;
+		width:10px;}
+submit {padding:5px}
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height:200px}
+</style>
+</head>
+<body>
+<div id="container">
+<header><!--this is newly inserted-->
+<a href="ChapterWebsite.html"><img src="FFA/Eagles.jfif" alt="Moulton-Udell" class="center"></a>
+</header>
+<nav>
+<ul class="center"><li><a href="Us.html" target="_blank">Officers</a></li>
+<li><a href="CalenderofEvents.html" target="_blank">Calender of Events</a></li>
+<li><a href="Committees.html" target="_blank">Committees</a></li>
+<li><a href="Events.html" target="_blank">Chapter Events</a></li>
+<li><a href="ChapterHistory.html" target="_blank">Chapter History</a></li>
+<li><a href="ChapterWebsite" target="_blank">Home</a></li>
+</ul>
+</nav>
+<form method="post" target="_blank" action="https://www.w3schools.com/action_page.php">
+<fieldset>
+<label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+ <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+<label for="phone">Phone:<label><br>
+  <input type="phone" id="phone" name="phone" placeholder="999-999-9999"><br>
+ <label for="email">Email</label><br>
+  <input type="email" name="email" id="email" placeholder="email@somewhere.com"><br>
+  <label for="prefered contact">Prefered Contact</label>
+		<select name="prefered contact" id="prefered contact">
+		<option value="Please Select">Please Select</option>
+		  <option value="Phone">Phone</option>
+		  <option value="Text">Text</option>
+		  <option value="Email">Email</option>
+		</select><br>
+<label for="interests">Interests:</label><br>	
+ <input type="textarea" id="interests" name="interests" placeholder="Type Here:"><br>
+ </fieldset>
+ <fieldset id="communications">
+ <input type="checkbox" name="Learn more about our chapter."id="Learn more about our chapter." value="YES" checked> 
+		<label for="Learn more about our chapter.">Learn more about our chapter.</label>
+		<br>
+		<input type="checkbox" name="Receive notices about events" id="Receive notices about events" value="YES"> 
+		<label for="Receive notices about events">Receive notices about events</label>
+		<br>	
+		<input type="checkbox" name="Want to join as memeber/alumni." id="Want to join as memeber/alumni." value="YES"> 
+		<label for="Want to join as memeber/alumni.">Want to join as memeber/alumni.</label>
+		<br>
+<input type="submit" value="Submit">		
+ </fieldset>
+
+</form>
+</body>
